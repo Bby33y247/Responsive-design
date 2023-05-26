@@ -1,0 +1,24 @@
+/* importing fonts  */
+@font-face {
+    font-family: title-text;
+    src: url(../Fonts/Poppins/Poppins-Bold.ttf)
+
+}
+@font-face {
+    font-family: body-text;
+    src: url(../Fonts/Poppins/Poppins-Regular.ttf)
+
+}
+
+/* defining global variables */
+:root{
+    --title-text: title-tetx;
+    --body-text: body-text;
+    --primary-text-color: color red;
+}
+
+body{
+    margin: 0;
+    font-family: var(--body-text);
+
+}

@@ -1,0 +1,7 @@
+/* mobile view  */
+@media only screen and (mix-width : 768px){
+    /* import global variables  */
+    @import url(./style.css);
+
+    /* other styles below    */
+}
